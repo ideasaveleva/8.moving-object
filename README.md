@@ -1,3 +1,5 @@
 # 8.moving-object
 
-Moving an object across the screen
+I practice moving an object across the screen
+
+https://ideasaveleva.github.io/8.moving-object/
