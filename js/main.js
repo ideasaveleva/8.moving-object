@@ -25,33 +25,3 @@ block.addEventListener("mousedown", function (e) {
   }
 });
  
-// Дополнительная информацмя для создания обработчика событий тачпада на мобильных устройствах
-//  // Отслеживаем событие нажатия тачпада
-// block.addEventListener("touchmove", function (e) {
-//   // Отслеживаем событие перемещение тачпада
-//   document.ontouchmove = function (e) {
-//     // Объявляем функцию для перемещения блока
-//     moveBlock(e);
-//   }
-
-//  mounted() {
-//       ...
-//       // Навешиваем обработчик события на родительский элемент
-//       document
-//       .getElementById("parent_id")
-//       .addEventListener("touchmove", this.touchMove);
-//    }
-//    methods : {
-//       touchMove(event) {
-//          // получаем касание
-//          const touch = event.changedTouches[0];   
-//          // вычисляем нажатый дочерний элемент  
-//          const target = document.elementFromPoint(touch.clientX, touch.clientY);
-//          // далее как обычно   
-//          this.dosome(target);
-//       }
-//    }
-  
-//   document.addEventListener('touchstart', (e) => {
-//     console.log(e.touches);
-// }
